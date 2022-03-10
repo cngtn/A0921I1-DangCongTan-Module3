@@ -53,7 +53,7 @@ DELIMITER $$
 CREATE PROCEDURE insertProduct()
 BEGIN
 insert into products(productCode,productName,productPrice,productAmount,productDesciption,productStatus)
-values('AS302','Laptop Asus',20000000,1,'Core i7','Hết hàng');
+values('BQP064','Bánh quy bơ',34000,6,'250g','Hết hàng');
 END $$
 DELIMITER ;
 

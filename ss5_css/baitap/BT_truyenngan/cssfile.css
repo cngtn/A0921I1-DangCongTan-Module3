@@ -1,0 +1,96 @@
+body,
+html {
+  height: 100%;
+}
+
+.head {
+  background: orange;
+  height: 50px;
+}
+
+.height-full {
+  height: 100%;
+}
+
+.left {
+  background: #0f6674;
+  height: 100%;
+}
+
+.right {
+  background: #0f6674;
+  height: 100%;
+}
+
+.contain {
+  background: #7abaff;
+  height: 100%;
+  /*padding: 20px;*/
+}
+
+.row {
+  /*float: left;*/
+  display: flex;
+  /* cho các phần tử con nổi lên*/
+  flex-wrap: wrap;
+  /* không đủ chỗ thì xuống hàng*/
+}
+
+@media only screen and (max-width: 1080px) {
+  .col-xs-1 {
+    width: 8.33333%;
+  }
+
+  .col-xs-2 {
+    width: 16.66667%;
+  }
+
+  .col-xs-3 {
+    width: 25%;
+  }
+
+  .col-xs-4 {
+    width: 33.33333%;
+  }
+
+  .col-xs-5 {
+    width: 41.66667%;
+  }
+
+  .col-xs-6 {
+    width: 50%;
+  }
+
+  .col-xs-7 {
+    width: 58.33333%;
+  }
+
+  .col-xs-8 {
+    width: 66.66667%;
+  }
+
+  .col-xs-9 {
+    width: 75%;
+  }
+
+  .col-xs-10 {
+    width: 83.33333%;
+  }
+
+  .col-xs-11 {
+    width: 91.66667%;
+  }
+
+  .col-xs-12 {
+    width: 100%;
+  }
+
+  li {
+    text-align: center;
+    color: red;
+  }
+
+  .menu {
+    display: none;
+  }
+}
