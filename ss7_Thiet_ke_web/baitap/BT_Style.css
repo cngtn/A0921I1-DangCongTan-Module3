@@ -1,0 +1,104 @@
+.head,
+footer {
+  padding: 10px;
+  color: rgb(29, 20, 20);
+  background-color: rgb(173, 201, 255);
+  justify-content: center;
+}
+div ul {
+  padding: 10px;
+  background-color: rgb(200, 233, 255);
+  text-align: center;
+  font-weight: bold;
+  line-height: inherit;
+}
+div ul li {
+  display: inline;
+  margin: 5px;
+}
+a {
+  text-decoration: None;
+}
+@media only screen {
+  .col-m-1 {
+    width: 8.33333%;
+  }
+  .col-m-2 {
+    width: 16.66667%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+  .col-m-4 {
+    width: 33.33333%;
+  }
+  .col-m-5 {
+    width: 41.66667%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-7 {
+    width: 58.33333%;
+  }
+  .col-m-8 {
+    width: 66.66667%;
+  }
+  .col-m-9 {
+    width: 75%;
+  }
+  .col-m-10 {
+    width: 83.33333%;
+  }
+  .col-m-11 {
+    width: 91.66667%;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+}
+body,
+html {
+  min-height: 100%;
+}
+.height-full {
+  min-height: 100%;
+}
+.left {
+  background: #ffffff;
+  height: 100%;
+}
+.right {
+  background: #ffffff;
+  height: 100%;
+}
+.contain {
+  background: #ffffff;
+  height: 100%;
+  /* padding: 10px; */
+}
+.row {
+  /*float: left;*/
+  display: flex; /* cho các phần tử con nổi lên*/
+  flex-wrap: wrap; /* không đủ chỗ thì xuống hàng*/
+}
+/* .video {
+  position: absolute;
+  left: 535px;
+} */
+p {
+  width: 100%;
+}
+.video {
+  display: flex;
+  justify-content: center;
+}
+.info {
+  margin: 40px;
+  text-align: justify;
+}
+.name {
+  font-size: 10px;
+  font-weight: bold;
+  text-align: justify;
+}
