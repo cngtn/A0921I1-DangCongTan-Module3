@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../../../jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../../../bootstrap-4.6.1-dist/css/bootstrap.css">
+    <script src="../../../bootstrap-4.6.1-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light col-12 col-sm-6 col-md-3">
+        <div class="container-fluid">
+            <a class="navbar-brand mb-0 h1" href="#">
+                <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+                    width="100" height="26">
+            </a>
+            <a class="navbar-brand" href="https://www.microsoft.com/en-us/surface">Surface</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="Dropdown1" role="button" data-toggle="dropdown"
+                            aria-expanded="false">Computers
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="Dropdown1">
+                            <table class="table table-borderless table-secondary" style="width: 550px">
+                                <tr>
+                                    <th>2-in-1 PCs</th>
+                                    <th>Laptops</th>
+                                    <th>Dual Screen</th>
+                                    <th>All-in-One</th>
+                                    <th>Need help deciding?</th>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://www.microsoft.com/en-us/d/surface-pro-8/8qwcrtq8v8xg">New
+                                            Surface
+                                            Pro 8</a></td>
+                                    <td><a href="https://www.microsoft.com/en-us/d/surface-laptop-studio/8srdf62swkpf">New
+                                            Surface Laptop Studio</a></td>
+                                    <td><a href="https://www.microsoft.com/en-us/d/surface-duo-2/9408kgxp4xjl">New
+                                            Surface
+                                            Duo 2</a></td>
+                                    <td><a href="https://www.microsoft.com/en-us/d/surface-studio-2/8sbjxm0m58t4">Surface
+                                            Studio 2</a></td>
+                                    <td><a href="https://www.microsoft.com/en-us/surface/devices/compare-devices">Compare
+                                            Surface devices</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a
+                                            href="https://www.microsoft.com/en-us/d/surface-pro-7-plus-and-type-cover-bundle/8s6t3hp3ct18">New
+                                            Surface Pro 7+</a>
+                                    </td>
+                                    <td><a href="https://www.microsoft.com/en-us/d/surface-laptop-4/946627fb12t1">Surface
+                                            Laptop 4</a></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><a href="https://www.microsoft.com/en-us/surface/devices/help-me-choose">Help me
+                                            choose a surface</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="Dropdown2" role="button" data-toggle="dropdown"
+                            aria-expanded="false">Computers for Business
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="Dropdown2">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="Dropdown3" role="button" data-toggle="dropdown"
+                            aria-expanded="false">Accessories
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="Dropdown3">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="Dropdown4" role="button" data-toggle="dropdown"
+                            aria-expanded="false">Shopnow
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="Dropdown4">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://support.microsoft.com/surface">Support</a>
+                    </li>
+                    <li class="nav-item dropdown" style="padding-left: 180px">
+                        <a class="nav-link dropdown-toggle" href="#" id="Dropdown5" role="button" data-toggle="dropdown"
+                            aria-expanded="false">All Microsoft
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="Dropdown5">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li>
+                        <form class="d-flex">
+                            <input class="form-control me-2 ml-xl-3 " type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success " type="submit">Search</button>
+                        </form>
+                    </li>
+                    <li style="padding-left: 10px">
+                        <a class="nav-link" href="https://www.microsoft.com/en-us/store/buy">Cart</a>
+                    </li>
+                    <li style="padding-top: 5px">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-cart3" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="height: 1500px;margin-top: 5%">
+        <div>
+            <p class="text-center" style="font-size: xx-large">Microsoft Surface laptops and 2-in-1s</p>
+            <p class="text-center font-weight-light" style="font-size: x-large">You can take originality to a new level
+                this
+                Women’s History Month, with a little inspiration and the right Surface device.</p>
+        </div>
+        <div class="row">
+            <div class="col-6 justify-content-right text-right">
+                <a href="https://inculture.microsoft.com/unlimited/"
+                    style="font-weight: bold; color: darkblue">Celebrate
+                    Women's History
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-6 justify-content-left text-left">
+                <a href="https://www.microsoft.com/en-us/surface#DeviceFamily_1"
+                    style="font-weight: bold; color: darkblue">Explore All Products
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="embed-responsive embed-responsive-21by9" style="margin-top: 5%">
+            <iframe class="embed-responsive-21by9"
+                src="https://www.microsoft.com/en-us/videoplayer/embed/RWWkqN?pid=player-container1-oneplayer&autoplay=false&mute=false&loop=false&market=en-us&useAdaptive=false&playFullScreen=false&showEndImage=true"></iframe>
+        </div>
+        <div class="row" style="margin-top: 2%">
+            <div class="col-3">
+                <p class="font-weight-light" style="font-size: xx-large">More choices than ever</p>
+            </div>
+            <div class="col-3 mt-2">
+                <img src="https://img.icons8.com/material-outlined/24/000000/multiple-devices.png" />
+                <a href="https://www.microsoft.com/en-us/surface/devices/compare-devices"
+                    style="font-weight: bold; color: darkblue">Company devices
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-3 mt-2">
+                <img
+                    src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/24/000000/external-help-notification-xnimrodx-lineal-xnimrodx-2.png" />
+                <a href="https://www.microsoft.com/en-us/surface/devices/help-me-choose"
+                    style="font-weight: bold; color: darkblue">Help me choose
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-3 mt-2">
+                <img src="https://img.icons8.com/material-outlined/24/000000/shopping-basket-2.png" />
+                <a href="https://www.microsoft.com/en-us/store/b/surface-deals"
+                    style="font-weight: bold; color: darkblue">Deals
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <p class="font-weight-light" style="font-size: large">Check out the most diverse selection of Surface
+                    devices yet, built for all the ways you create, work, play, and connect.</p>
+            </div>
+            <div class="col-3">
+                <img src="https://img.icons8.com/windows/32/000000/person-at-home.png" />
+                <a href="https://www.microsoft.com/en-us/surface/devices-for-remote-working-and-learning"
+                    style="font-weight: bold; color: darkblue">Surface at home
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-3">
+                <img
+                    src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/24/000000/external-education-job-amp-resume-xnimrodx-lineal-xnimrodx.png" />
+                <a href="https://www.microsoft.com/en-us/education/products/windows-11-se"
+                    style="font-weight: bold; color: darkblue">For Education
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </a>
+            </div>
+            <div class="col-3">
+                <img src="https://img.icons8.com/stickers/24/000000/building.png" />
+                <a href="https://www.microsoft.com/en-us/surface/business"
+                    style="font-weight: bold; color: darkblue">For
+                    Business
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <p class="font-weight-light" style="font-size: x-large; padding-left: 1%">2-in-1 PCs</p>
+            <a href="https://www.microsoft.com/en-us/surface/devices/surface-pro-models#coreui-banner-2zn4nrq"
+                style="font-weight: bold; color: darkblue; padding-top: 5px; padding-left: 2%">Compare
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card bg-light" style="width: 17rem">
+                    <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F21_DeviceFamily_DO2_V1.jpg?version=51b444e9-b150-fddc-e621-68cc29080173"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <a href="https://www.microsoft.com/en-us/d/surface-pro-8/8qwcrtq8v8xg"
+                            style="font-weight: bold; color: darkblue">Surface Pro 8
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card bg-light" style="width: 17rem;">
+                    <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F21_DeviceFamily_DO3_V1.jpg?version=14d5aca6-0d92-3e85-3bea-512a72a15c74"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <a href="https://www.microsoft.com/en-us/d/surface-pro-x/8xtmb6c575md"
+                            style="font-weight: bold; color: darkblue">Surface Pro X
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card bg-light" style="width: 17rem;">
+                    <img src="https://c.s-microsoft.com/en-us/CMSImages/1920_Panel03_DeviceFamily_Pro7Plus.jpg?version=f4411094-f2e1-b89b-41d1-4517624580ae"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <a href="https://www.microsoft.com/en-us/d/surface-pro-7-plus-and-type-cover-bundle/8s6t3hp3ct18"
+                            style="font-weight: bold; color: darkblue">Surface Pro 7+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card bg-light" style="width: 17rem;">
+                    <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_Home_DeviceFamily_GO3_Black_V1.jpg?version=2847d458-320b-e8de-f115-f6552ecdb02d"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <a href="https://www.microsoft.com/en-us/d/surface-go-3/904h27d0cbwn"
+                            style="font-weight: bold; color: darkblue">Surface Pro 7+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="font-weight-light" style="font-size: x-large; padding-left: 1%; margin-top: 1%">Laptops</p>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card bg-light" style="width: 17rem;">
+                    <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F21_DeviceFamily_SLS_V1.jpg?version=0ae6bebe-72a2-17e3-6f25-1c17a7209787"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <a href="https://www.microsoft.com/en-us/d/surface-laptop-studio/8srdf62swkpf"
+                            style="font-weight: bold; color: darkblue">Surface Laptop Studio
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card bg-light" style="width: 17rem;">
+                    <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F21_DeviceFamily_Laptop4_V1_Blackfriday.jpg?version=4258b51c-655a-37d6-fbd3-b8138d84dcae"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <a href="https://www.microsoft.com/en-us/d/surface-laptop-4/946627fb12t1"
+                            style="font-weight: bold; color: darkblue">Surface Laptop 4
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card bg-light" style="width: 17rem;">
+                    <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F21_DeviceFamily_LaptopGo_V1_Blackfriday.jpg?version=d650e66f-9f5e-d36a-0459-743a6d63958a"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <a href="https://www.microsoft.com/en-us/d/surface-laptop-4/946627fb12t1"
+                            style="font-weight: bold; color: darkblue">Surface Laptop Go
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card bg-light" style="width: 17rem;">
+                    <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F21_DeviceFamily_DOStore2_V1.jpg?version=84185a51-4d21-b314-7442-06ce036415d8"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <a href="https://www.microsoft.com/en-us/d/surface-duo-2/9408kgxp4xjl"
+                            style="font-weight: bold; color: darkblue">Surface Duo 2
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <p class="font-weight-light" style="font-size: x-large; padding-left: 1%; margin-top: 1%">All-in-one</p>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card bg-light" style="width: 17rem;">
+                    <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_F21_DeviceFamily_Studio2_V1_Blackfriday.jpg?version=72d8410c-3280-67f2-5c7a-c516caa6c728"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <a href="https://www.microsoft.com/en-us/d/surface-studio-2/8sbjxm0m58t4"
+                            style="font-weight: bold; color: darkblue">Surface Studio 2
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9 bg-light ">
+                <div class="d-flex" style="height: 200px">
+                    <div style="width: 49%">
+                        <img src="https://c.s-microsoft.com/en-us/CMSImages/Surface_Allinone_Homepage_FamilyDevices._V2.jpg?version=54b545d9-1488-a94a-4ea9-2d644d6373af"
+                            class="img-fluid">
+                    </div>
+                    <div class="pl-3">
+                        <h5>Trying to decide which Surface device to choose?</h5>
+                        <div>
+                            <a href="https://www.microsoft.com/en-us/surface/devices/compare-devices"
+                                style="font-weight: bold; color: darkblue">Compare Surface Devices
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 3%; margin-left: 1px">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active d-flex">
+                        <div class="col-4">
+                            <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWNWSt?ver=5fd7"
+                                class="img-fluid d-block w-100">
+                        </div>
+                        <div class="col-8 bg-light">
+                            <h5 class="font-weight-light">Up to &200 off select Surface Pro 8</h5>
+                            <p class="font-weight-light">Get a great deal on a touchscreen device that enables you to
+                                work, play and create</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item d-flex">
+                        <div class="col-4">
+                            <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3fhim?ver=7dfb"
+                                class="img-fluid d-block w-100">
+                        </div>
+                        <div class="col-8 bg-light">
+                            <h5 class="font-weight-light">Up to 35% off Certified Refurbished Surface</h5>
+                            <p class="font-weight-light">Our program offers the opportunity to own devices that are put
+                                through a rigorous certification process, tested to confirm they’re working properly,
+                                and inspected for hardware and cosmetic quality—all at a discounted price.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item d-flex">
+                        <div class="col-4">
+                            <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWCOYq"
+                                class="img-fluid d-block w-100">
+                        </div>
+                        <div class="col-8 bg-light">
+                            <h5 class="font-weight-light">Save up to $320 on select Surface Laptop 4 </h5>
+                            <p class="font-weight-light">Do it all with a perfect balance of sleek design, speed and
+                                immersive audio.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev bg-light" type="button" data-target="#carouselExampleControls"
+                    data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next bg-light" type="button" data-target="#carouselExampleControls"
+                    data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 mt-3">
+                <ul class="list-unstyled d-flex">
+                    <li class="ml-4">Follow this page</li>
+                    <li class="ml-2"><a href="http://www.facebook.com/surface"><img
+                                src="https://img.icons8.com/windows/30/000000/facebook-f--v1.png" /></a></li>
+                    <li class="ml-1"><a href="http://www.twitter.com/surface"><img
+                                src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png" /></a></li>
+                    <li class="ml-1"><a href="https://www.instagram.com/surface"><img
+                                src="https://img.icons8.com/material-outlined/30/000000/instagram-new--v1.png" /></a>
+                    </li>
+                    <li class="ml-1"><a href="https://www.linkedin.com/showcase/microsoft-surface"><img
+                                src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" /></a></li>
+                </ul>
+            </div>
+            <div class="col-6 mt-3">
+                <ul class="list-unstyled d-flex justify-content-end">
+                    <li style="padding-left: 5px">Share this page</li>
+                    <li class="ml-2"><a href="http://www.facebook.com/surface"><img
+                                src="https://img.icons8.com/windows/30/000000/facebook-f--v1.png" /></a></li>
+                    <li class="ml-1"><a href="http://www.twitter.com/surface"><img
+                                src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png" /></a></li>
+                    <li class="ml-1"><a href="https://www.linkedin.com/showcase/microsoft-surface"><img
+                                src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" /></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-light">
+            <div class="col-4">
+                <h6>What's new</h6>
+                <ul class="nav flex-column">
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/d/surface-pro-8/8qwcrtq8v8xg">Surface Pro 8</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/d/surface-laptop-studio/8srdf62swkpf">Surface Laptop
+                            Studio</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/d/surface-pro-x/8xtmb6c575md">Surface Pro X</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/d/surface-go-3/904h27d0cbwn">Surface Go 3</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/d/surface-duo-2/9408kgxp4xjl">Surface Duo 2</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/es-us/d/surface-pro-7-plus/92wrlrcvz4pr">Surface Pro 7+</a>
+                    </li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/windows/windows-11-apps">Windows 11 apps</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/hololens">HoloLens 2</a></li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h6>Microsoft Store</h6>
+                <ul class="nav flex-column">
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://account.microsoft.com/">Account
+                            profile</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/download">Download Center</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://go.microsoft.com/fwlink/?linkid=2139749">Microsoft Store support</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://go.microsoft.com/fwlink/p/?linkid=824764&clcid=0x409">Returns</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://account.microsoft.com/orders">Order
+                            tracking</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/store/workshops-training-and-events?icid=vl_uf_932020">Virtual
+                            workshops and training</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store_7102020">Microsoft
+                            Store Promise</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc">Flexible
+                            Payments</a></li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h6>Education</h6>
+                <ul class="nav flex-column">
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/education">Microsoft in education</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/education/products/office/default.aspx">Office for
+                            students</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/microsoft-365/academic/compare-office-365-education-plans">Office
+                            365 for schools</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/store/b/education?icid=cnavfooter_studentsandeducation">Deals
+                            for students & parents</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://azure.microsoft.com/en-us/community/education/">Microsoft Azure in
+                            education</a>
+                    </li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/store/b/business-consultation?tab=educationconsultation&icid=cnavfooter_educationconsultation">Education
+                            consultation appointment</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-light pt-3">
+            <div class="col-4">
+                <h6>Enterprise</h6>
+                <ul class="nav flex-column">
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://azure.microsoft.com/">Azure</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://go.microsoft.com/fwlink/?linkid=808093">AppSource</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/industry/automotive">Automotive</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/industry/government">Government</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/industry/health/microsoft-cloud-for-healthcare">Healthcare</a>
+                    </li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/industry/manufacturing/microsoft-cloud-for-manufacturing">Manufacturing</a>
+                    </li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/industry/financial-services/microsoft-cloud-for-financial-services">Financial
+                            services</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/industry/retail/microsoft-cloud-for-retail">Retail</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h6>Developer</h6>
+                <ul class="nav flex-column">
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://visualstudio.microsoft.com/">Microsoft
+                            Visual Studio</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://developer.microsoft.com/en-us/windows">Windows Dev Center</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://developer.microsoft.com/">Developer
+                            Center</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://developer.microsoft.com/en-us/store/register">Microsoft developer program</a>
+                    </li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://channel9.msdn.com/">Channel
+                            9</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://developer.microsoft.com/microsoft-365">Microsoft 365 Dev Center</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://developer.microsoft.com/microsoft-365/dev-program">Microsoft 365 Developer
+                            Program</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/garage/">Microsoft Garage</a></li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <h6>Company</h6>
+                <ul class="nav flex-column">
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://careers.microsoft.com/">Careers</a>
+                    </li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/about">About Microsoft</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://news.microsoft.com/">Company
+                            news</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://privacy.microsoft.com/en-us">Privacy
+                            at Microsoft</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/investor/default.aspx">Investors</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/diversity/">Diversity and inclusion</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/accessibility">Accessibility</a></li>
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/security">Security</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-light pt-4">
+            <div class="col-4">
+                <a class="font-weight-light pl-3" style="font-size: smaller"
+                    href="https://www.microsoft.com/en-us/surface/worldwide"><img class="pr-1"
+                        src="https://img.icons8.com/external-jumpicon-glyph-ayub-irawan/30/000000/external-_44-climate-change-jumpicon-(glyph)-jumpicon-glyph-ayub-irawan.png" />English
+                    (United Stats)</a>
+            </div>
+            <div class="col-8">
+                <ul class="list-unstyled d-flex justify-content-end">
+                    <li class="font-weight-light" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/sitemap1.aspx">Sitemap</a></li>
+                    <li class="font-weight-light ml-3" style="font-size: smaller"><a
+                            href="https://support.microsoft.com/contactus">Contact Microsoft</a></li>
+                    <li class="font-weight-light ml-3" style="font-size: smaller"><a
+                            href="https://go.microsoft.com/fwlink/?linkid=521839">Privacy</a></li>
+                    <li class="font-weight-light ml-3" style="font-size: smaller"><a
+                            href="https://go.microsoft.com/fwlink/?linkid=206977">Terms of use</a></li>
+                    <li class="font-weight-light ml-3" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/trademarks">Trademarks</a></li>
+                    <li class="font-weight-light ml-3" style="font-size: smaller"><a
+                            href="https://www.microsoft.com/en-us/devices/safety-and-eco">Safety & eco</a></li>
+                    <li class="font-weight-light ml-3" style="font-size: smaller"><a
+                            href="https://choice.microsoft.com/">About
+                            our ads</a></li>
+                    <li class="font-weight-light ml-3" style="font-size: smaller">&copy; Microsoft 2022</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
