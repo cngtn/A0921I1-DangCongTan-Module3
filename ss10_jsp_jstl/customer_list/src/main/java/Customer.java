@@ -1,25 +1,26 @@
 public class Customer {
-    private String name;
-    private  String ngaySinh;
+
+    private String ten;
+    private String ngaySinh;
     private String diaChi;
-    private String anh;
+    private String hinhAnh;
 
     public Customer() {
     }
 
-    public Customer(String name, String ngaySinh, String diaChi, String anh) {
-        this.name = name;
+    public Customer(String ten, String ngaySinh, String diaChi, String hinhAnh) {
+        this.ten = ten;
         this.ngaySinh = ngaySinh;
         this.diaChi = diaChi;
-        this.anh =  anh;
+        this.hinhAnh = hinhAnh;
     }
 
-    public String getName() {
-        return name;
+    public String getTen() {
+        return ten;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTen(String ten) {
+        this.ten = ten;
     }
 
     public String getNgaySinh() {
@@ -38,11 +39,11 @@ public class Customer {
         this.diaChi = diaChi;
     }
 
-    public String getAnh() {
-        return anh;
+    public String getHinhAnh() {
+        return hinhAnh;
     }
 
-    public void setAnh(String anh) {
-        this.anh = anh;
+    public void setHinhAnh(String hinhAnh) {
+        this.hinhAnh = hinhAnh;
     }
 }
