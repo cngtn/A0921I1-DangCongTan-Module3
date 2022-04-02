@@ -119,7 +119,8 @@ public class UserDAO implements IUserDAO {
     public User getUserById (int id){
         User user = null;
         String query = "{CALL get_user_by_id(?)}";
-        try(Connection connection = getConnection(); CallableStatement callableStatement = connection.prepareCall(query);){
+        try(Connection connection = getConnection();
+            CallableStatement callableStatement = connection.prepareCall(query);){
             callableStatement.setInt(1, id);
             ResultSet rs = callableStatement.executeQuery();
             while (rs.next()){
